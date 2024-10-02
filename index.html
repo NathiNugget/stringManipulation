@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="css/mystyle.css">
+</head>
+<body>
+    
+    <input type="text" id="PutField">
+    <select id="Format">
+        <option value="UPPERCASE">UPPERCASE</option>
+        <option value="lowercase">lowercase</option>
+        <option value="sPoNgEbObCaSe">sPoNgEbObCaSe</option>
+    </select>
+    
+    <table id="list">  
+        <tbody id="placeToAdd">
+            <tr id="top">
+                <th>
+                    Index
+                </th>
+                <th>
+                    String
+                </th>
+            </tr>
+            <tr class="odd">
+                <td>Hej</td>
+                <td>Farvel</td>
+        
+            </tr>
+            <tr class="even">
+                <td>Hej</td>
+                <td>Farvel</td>
+            </tr>
+        </tbody>
+        
+        
+    </table>
+    <button onclick="addToList('PutField', 'Format', 'list')">
+        Add to list!
+    </button>
+
+<script src="js/script.js"></script>
+</body>
+</html>
